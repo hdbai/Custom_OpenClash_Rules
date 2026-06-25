@@ -1,21 +1,28 @@
 payload:
+  # 3GPP EPC
   - DOMAIN-KEYWORD,mcc234
+  - DOMAIN-KEYWORD,mnc015
+  - DOMAIN-KEYWORD,mnc010
+  - DOMAIN-KEYWORD,mnc020
 
-  # Vodafone
-  - DOMAIN-SUFFIX,entsrv-uk.vodafone.com
-  - DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com
-  - IP-CIDR,88.82.0.0/19,no-resolve
-  - IP-CIDR,148.252.160.0/19,no-resolve
+  # Lemonade
+  - DOMAIN,app.lemonade.finance
 
-  # VOXI
+  # IDEMIA
   - DOMAIN,vfgb.idemia.io
 
-  # CMLinkUK EE
-  - IP-CIDR,46.68.0.0/17,no-resolve
+  # Vodafone
+  - DOMAIN,vodafone.com
+  - DOMAIN,ondemandconnectivity.com
 
   # Giffgaff
-  - IP-CIDR,87.194.0.0/16,no-resolve
+  - DOMAIN,giffgaff.com
 
-  # CTE
-  - DOMAIN-SUFFIX,ct.ee.co.uk
+  # IP
+  - IP-CIDR,88.82.0.0/19,no-resolve
+  - IP-CIDR,148.252.160.0/19,no-resolve
+  - IP-CIDR,87.194.0.0/16,no-resolve
+  - IP-CIDR,185.153.236.0/22,no-resolve
+  - IP-CIDR,185.153.237.0/24,no-resolve
   - IP-CIDR,31.94.0.0/16,no-resolve
+  - IP-CIDR,46.68.0.0/17,no-resolve
