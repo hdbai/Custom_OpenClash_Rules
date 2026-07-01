@@ -4,6 +4,7 @@ payload:
   - DOMAIN-KEYWORD,mnc015
   - DOMAIN-KEYWORD,mnc010
   - DOMAIN-KEYWORD,mnc020
+  - DOMAIN-KEYWORD,mcc234
 
   # Lemonade
   - DOMAIN,app.lemonade.finance
@@ -16,7 +17,9 @@ payload:
   - DOMAIN,ondemandconnectivity.com
 
   # Giffgaff
-  - DOMAIN,giffgaff.com
+  - DOMAIN-SUFFIX,giffgaff.com
+
+  - DOMAIN-SUFFIX,ee.co.uk
 
   # IP
   - IP-CIDR,88.82.0.0/19,no-resolve
