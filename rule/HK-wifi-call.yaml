@@ -1,0 +1,20 @@
+payload:
+  # 3GPP EPC
+  - DOMAIN-KEYWORD,mcc454
+  - DOMAIN-KEYWORD,mnc000
+
+  # 3HK
+  - DOMAIN-SUFFIX,three.com.hk
+  - DOMAIN-SUFFIX,wlan.three.com.hk
+
+  # ePDG
+  - DOMAIN-SUFFIX,epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,ss.epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc000.mcc454.pub.3gppnetwork.org
+
+  # IP
+  - IP-CIDR,203.145.80.0/20,no-resolve
+  - IP-CIDR,203.145.88.0/21,no-resolve
+  - IP-CIDR,203.145.92.0/24,no-resolve
+  - IP-CIDR,124.217.128.0/18,no-resolve
+  - IP-CIDR,124.217.186.0/24,no-resolve
