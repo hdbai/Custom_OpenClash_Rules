@@ -4,7 +4,7 @@ payload:
   - DOMAIN-KEYWORD,mnc015
   - DOMAIN-KEYWORD,mnc010
   - DOMAIN-KEYWORD,mnc020
-  - DOMAIN-KEYWORD,mcc234
+  - DOMAIN-KEYWORD,mnc033
 
   # Lemonade
   - DOMAIN,app.lemonade.finance
@@ -13,12 +13,22 @@ payload:
   - DOMAIN,vfgb.idemia.io
 
   # Vodafone
-  - DOMAIN,vodafone.com
-  - DOMAIN,ondemandconnectivity.com
+  - DOMAIN-SUFFIX,vodafone.com
+  - DOMAIN-SUFFIX,ondemandconnectivity.com
+  - DOMAIN-SUFFIX,entsrv-uk.vodafone.com
+  - DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com
+
+  # ePDG
+  - DOMAIN-SUFFIX,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,epdg.epc.mnc020.mcc234.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,epdg.epc.mnc033.mcc234.pub.3gppnetwork.org
 
   # Giffgaff
   - DOMAIN-SUFFIX,giffgaff.com
 
+  # EE
   - DOMAIN-SUFFIX,ee.co.uk
 
   # IP
