@@ -1,0 +1,33 @@
+payload:
+  # Apple 地区检测
+  - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+
+  # 3GPP EPC
+  - DOMAIN-KEYWORD,mcc310
+  - DOMAIN-KEYWORD,mnc240
+  - DOMAIN-KEYWORD,mnc260
+
+  # T-Mobile / Ultra Mobile
+  - DOMAIN-KEYWORD,t-mobile
+  - DOMAIN-KEYWORD,ultramobile
+  - DOMAIN-SUFFIX,t-mobile.com
+  - DOMAIN-SUFFIX,ultramobile.com
+  - DOMAIN-SUFFIX,redirect.ultra.me
+  - DOMAIN-SUFFIX,crl.t-mobile.com
+  - DOMAIN-SUFFIX,eas3.msg.t-mobile.com
+  - DOMAIN-SUFFIX,mascns.t-mobile.com
+  - DOMAIN-SUFFIX,ns.sipgeo.t-mobile.com
+
+  # ePDG
+  - DOMAIN-SUFFIX,depdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+
+  # 其它
+  - DOMAIN-SUFFIX,optimizely.com
+
+  # IP
+  - IP-CIDR,206.29.177.36/32,no-resolve
+  - IP-CIDR,208.54.0.0/16,no-resolve
+  - IP-CIDR,66.94.0.0/19,no-resolve
