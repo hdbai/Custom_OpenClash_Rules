@@ -11,12 +11,14 @@ payload:
   - DOMAIN-KEYWORD,t-mobile
   - DOMAIN-KEYWORD,ultramobile
   - DOMAIN-SUFFIX,t-mobile.com
+  - DOMAIN-SUFFIX,redpocket.com
   - DOMAIN-SUFFIX,ultramobile.com
   - DOMAIN-SUFFIX,redirect.ultra.me
   - DOMAIN-SUFFIX,crl.t-mobile.com
   - DOMAIN-SUFFIX,eas3.msg.t-mobile.com
   - DOMAIN-SUFFIX,mascns.t-mobile.com
   - DOMAIN-SUFFIX,ns.sipgeo.t-mobile.com
+  
 
   # ePDG
   - DOMAIN-SUFFIX,depdg.epc.mnc260.mcc310.pub.3gppnetwork.org
