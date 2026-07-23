@@ -18,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,eas3.msg.t-mobile.com
   - DOMAIN-SUFFIX,mascns.t-mobile.com
   - DOMAIN-SUFFIX,ns.sipgeo.t-mobile.com
+  - DOMAIN-SUFFIX,idemia.io
   
 
   # ePDG
