@@ -17,6 +17,7 @@ payload:
   - DOMAIN-SUFFIX,ondemandconnectivity.com
   - DOMAIN-SUFFIX,entsrv-uk.vodafone.com
   - DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com
+  - DOMAIN-SUFFIX,voxi.co.uk
 
   # ePDG
   - DOMAIN-SUFFIX,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
