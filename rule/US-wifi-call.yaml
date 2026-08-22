@@ -20,6 +20,8 @@ payload:
   - DOMAIN-SUFFIX,tello.com
   - DOMAIN-SUFFIX,redpocket.com
   - DOMAIN-SUFFIX,ultramobile.com
+  - DOMAIN-SUFFIX,lycamobile.us
+  - DOMAIN-SUFFIX,metrobyt-mobile.com
   - DOMAIN-SUFFIX,redirect.ultra.me
   - DOMAIN-SUFFIX,crl.t-mobile.com
   - DOMAIN-SUFFIX,eas3.msg.t-mobile.com
