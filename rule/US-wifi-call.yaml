@@ -33,6 +33,7 @@ payload:
   - DOMAIN-SUFFIX,ns.sipgeo.t-mobile.com
   - DOMAIN-SUFFIX,idemia.io
   - DOMAIN-SUFFIX,capitaloneshopping.com
+  - DOMAIN-SUFFIX,otgeuicc.com
   
 
   # ePDG
