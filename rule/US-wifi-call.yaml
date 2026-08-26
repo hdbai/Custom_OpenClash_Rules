@@ -34,6 +34,24 @@ payload:
   - DOMAIN-SUFFIX,idemia.io
   - DOMAIN-SUFFIX,capitaloneshopping.com
   - DOMAIN-SUFFIX,otgeuicc.com
+
+    # Visible / Verizon
+  - DOMAIN-SUFFIX,visible.com
+  - DOMAIN-SUFFIX,bevisible.com
+  - DOMAIN-SUFFIX,verizon.com
+
+  # Visible / Verizon Wi-Fi Calling
+  - DOMAIN,wo.vzwwo.com
+  - DOMAIN-SUFFIX,vzwwo.com
+
+  # Verizon IMS / Wi-Fi Calling related
+  - DOMAIN,sg.vzwfemto.com
+  - DOMAIN-SUFFIX,vzwfemto.com
+  - DOMAIN,spg.vzw.com
+
+  # Visible / Verizon PLMN
+  - DOMAIN-KEYWORD,mcc311
+  - DOMAIN-KEYWORD,mnc480
   
 
   # ePDG
