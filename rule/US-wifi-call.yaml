@@ -17,6 +17,7 @@ payload:
   - DOMAIN-SUFFIX,mintmobile.com
   - DOMAIN-SUFFIX,usmobile.com
   - DOMAIN-SUFFIX,visible.com
+  - DOMAIN-SUFFIX,verizon.com
   - DOMAIN-SUFFIX,tello.com
   - DOMAIN-SUFFIX,redpocket.com
   - DOMAIN-SUFFIX,ultramobile.com
