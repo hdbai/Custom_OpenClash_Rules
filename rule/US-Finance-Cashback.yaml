@@ -1,0 +1,61 @@
+# NAME: US Finance & Cashback
+# PURPOSE: Route US cashback, affiliate redirects, banks and credit services through a stable US residential exit.
+# MAINTAINER: hdbai
+# INITIAL SOURCES:
+# - https://github.com/wyek1n/OpenClash_Rules/blob/main/rule/Custom_Proxy.list (bank-domain seed; selectively curated)
+# - Official service domains and observed affiliate redirect domains
+# NOTE: Broad shared CDN/analytics domains are intentionally excluded to avoid unrelated traffic capture.
+payload:
+  - DOMAIN-SUFFIX,topcashback.com
+  - DOMAIN-SUFFIX,capitaloneshopping.com
+  - DOMAIN-SUFFIX,wikibuy.com
+  - DOMAIN-SUFFIX,rakuten.com
+  - DOMAIN-SUFFIX,befrugal.com
+  - DOMAIN-SUFFIX,swagbucks.com
+  - DOMAIN-SUFFIX,mypoints.com
+  - DOMAIN-SUFFIX,retailmenot.com
+  - DOMAIN-SUFFIX,couponcabin.com
+  - DOMAIN-SUFFIX,rebatesme.com
+  - DOMAIN-SUFFIX,extrabux.com
+  - DOMAIN-SUFFIX,dollardig.com
+  - DOMAIN-SUFFIX,pxf.io
+  - DOMAIN-SUFFIX,impact.com
+  - DOMAIN-SUFFIX,impactradius.com
+  - DOMAIN-SUFFIX,awin.com
+  - DOMAIN-SUFFIX,awin1.com
+  - DOMAIN-SUFFIX,shareasale.com
+  - DOMAIN-SUFFIX,linksynergy.com
+  - DOMAIN-SUFFIX,visible.com
+  - DOMAIN-SUFFIX,bankofamerica.com
+  - DOMAIN-SUFFIX,bofa.com
+  - DOMAIN-SUFFIX,capitalone.com
+  - DOMAIN-SUFFIX,capitalone360.com
+  - DOMAIN-SUFFIX,capitalonebank.com
+  - DOMAIN-SUFFIX,capitaloneoffers.com
+  - DOMAIN-SUFFIX,citi.com
+  - DOMAIN-SUFFIX,citi-us.com
+  - DOMAIN-SUFFIX,citibank.com
+  - DOMAIN-SUFFIX,citibankonline.com
+  - DOMAIN-SUFFIX,citicards.com
+  - DOMAIN-SUFFIX,citigroup.com
+  - DOMAIN-SUFFIX,chase.com
+  - DOMAIN-SUFFIX,jpmorganchase.com
+  - DOMAIN-SUFFIX,americanexpress.com
+  - DOMAIN-SUFFIX,discover.com
+  - DOMAIN-SUFFIX,wellsfargo.com
+  - DOMAIN-SUFFIX,usbank.com
+  - DOMAIN-SUFFIX,pnc.com
+  - DOMAIN-SUFFIX,truist.com
+  - DOMAIN-SUFFIX,ally.com
+  - DOMAIN-SUFFIX,alliantcreditunion.com
+  - DOMAIN-SUFFIX,alliantcreditunion.org
+  - DOMAIN-SUFFIX,chime.com
+  - DOMAIN-SUFFIX,sofi.com
+  - DOMAIN-SUFFIX,fidelity.com
+  - DOMAIN-SUFFIX,schwab.com
+  - DOMAIN-SUFFIX,creditonebank.com
+  - DOMAIN-SUFFIX,biltrewards.com
+  - DOMAIN-SUFFIX,equifax.com
+  - DOMAIN-SUFFIX,experian.com
+  - DOMAIN-SUFFIX,transunion.com
+  - DOMAIN-SUFFIX,id.me
