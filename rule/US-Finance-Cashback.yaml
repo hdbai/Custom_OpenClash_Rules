@@ -4,6 +4,7 @@
 # INITIAL SOURCES:
 # - https://github.com/wyek1n/OpenClash_Rules/blob/main/rule/Custom_Proxy.list (bank-domain seed; selectively curated)
 # - Official service domains and observed affiliate redirect domains
+# - https://gist.github.com/sarkrui/2157553656e8e6a48ee94ebf94ef9460 (US bank/card domains; suffix-only, selectively curated)
 # NOTE: Broad shared CDN/analytics domains are intentionally excluded to avoid unrelated traffic capture.
 payload:
   - DOMAIN-SUFFIX,topcashback.com
@@ -65,3 +66,44 @@ payload:
   - DOMAIN-SUFFIX,nextinsurance.com
   - DOMAIN-SUFFIX,accidentfund.com
   - DOMAIN-SUFFIX,mercury.com
+  - DOMAIN-SUFFIX,insureon.com
+  - DOMAIN-SUFFIX,coverwallet.com
+  - DOMAIN-SUFFIX,simplybusiness.com
+  - DOMAIN-SUFFIX,trustedchoice.com
+  - DOMAIN-SUFFIX,cerity.com
+  - DOMAIN-SUFFIX,53.com
+  - DOMAIN-SUFFIX,amex.com
+  - DOMAIN-SUFFIX,amextravel.com
+  - DOMAIN-SUFFIX,bac.com
+  - DOMAIN-SUFFIX,baml.com
+  - DOMAIN-SUFFIX,bbt.com
+  - DOMAIN-SUFFIX,bmoharris.com
+  - DOMAIN-SUFFIX,chasepaymentech.com
+  - DOMAIN-SUFFIX,citidirect.com
+  - DOMAIN-SUFFIX,citizensaccess.com
+  - DOMAIN-SUFFIX,citizensbank.com
+  - DOMAIN-SUFFIX,citizensbankonline.com
+  - DOMAIN-SUFFIX,discoverbank.com
+  - DOMAIN-SUFFIX,discoverbiz.com
+  - DOMAIN-SUFFIX,discovercard.com
+  - DOMAIN-SUFFIX,discoverit.com
+  - DOMAIN-SUFFIX,discoverpersonalloans.com
+  - DOMAIN-SUFFIX,goldmansachs.com
+  - DOMAIN-SUFFIX,huntington.com
+  - DOMAIN-SUFFIX,jpmorgan.com
+  - DOMAIN-SUFFIX,key.com
+  - DOMAIN-SUFFIX,marcus.com
+  - DOMAIN-SUFFIX,merrilledge.com
+  - DOMAIN-SUFFIX,ml.com
+  - DOMAIN-SUFFIX,mtb.com
+  - DOMAIN-SUFFIX,pncpaycard.com
+  - DOMAIN-SUFFIX,pncprepaidcard.com
+  - DOMAIN-SUFFIX,regions.com
+  - DOMAIN-SUFFIX,serve.com
+  - DOMAIN-SUFFIX,suntrust.com
+  - DOMAIN-SUFFIX,tdbank.com
+  - DOMAIN-SUFFIX,tdcommercialbanking.com
+  - DOMAIN-SUFFIX,usaa.com
+  - DOMAIN-SUFFIX,usbankreliacard.com
+  - DOMAIN-SUFFIX,wellsfargoadvisors.com
+  - DOMAIN-SUFFIX,wf.com
